@@ -43,7 +43,7 @@ public class PingDB {
             ")";
     private static DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
     private static LocalDateTime now = LocalDateTime.now();
-
+//making a change to test git
 
     public static void getConnection() throws ClassNotFoundException, SQLException {
         String driver = "oracle.jdbc.driver.OracleDriver";
